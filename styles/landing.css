@@ -13,3 +13,7 @@ img {
 .col-lg-8 > p:first-child {
   font-size: 1.25rem;
 }
+
+.col {
+  margin: 2.5vh 0;
+}
