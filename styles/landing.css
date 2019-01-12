@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 20vw;
+  width: 30%;
 }
 
 .col-lg-8 {
@@ -11,5 +11,5 @@ img {
 }
 
 .col-lg-8 > p:first-child {
-  font-size: 1.5vw;
+  font-size: 1.25rem;
 }
