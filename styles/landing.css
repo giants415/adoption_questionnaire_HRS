@@ -1,10 +1,14 @@
+body {
+  text-align: center;
+}
+
 img {
   width: 20vw;
 }
 
 .col-lg-8 {
   margin-top: 5vh;
-  text-align: center;
+
 }
 
 .col-lg-8 > p:first-child {
