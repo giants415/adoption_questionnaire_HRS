@@ -9,6 +9,10 @@ h1 {
   text-align: center;
 }
 
+fieldset {
+  margin: 2.5vh auto;
+}
+
 a {
   color: black;
   border: 1px solid white;
