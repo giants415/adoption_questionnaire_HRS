@@ -6,12 +6,12 @@ img {
   width: 30%;
 }
 
-.col-lg-10 {
-  margin: 5vh auto;
+p {
+  font-size: 1.25rem;
 }
 
-.col-lg-10 > p:first-child {
-  font-size: 1.25rem;
+.col-lg-10 {
+  margin: 5vh auto;
 }
 
 .col {
