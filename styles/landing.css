@@ -6,7 +6,8 @@ body {
 
 img {
   width: 30%;
-  margin-top: 5vh;
+  margin: 5vh auto;
+  border-radius: 50px;
 }
 
 p {
