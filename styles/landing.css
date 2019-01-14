@@ -6,11 +6,11 @@ img {
   width: 30%;
 }
 
-.col-lg-8 {
-  margin-top: 5vh;
+.col-lg-10 {
+  margin: 5vh auto;
 }
 
-.col-lg-8 > p:first-child {
+.col-lg-10 > p:first-child {
   font-size: 1.25rem;
 }
 
