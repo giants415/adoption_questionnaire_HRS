@@ -2,4 +2,13 @@ body {
   /* text-align: center; */
   background-color: #6500b8;
   color: white;
+  margin: 5vh auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#personal {
+  /* display: flex; */
 }
