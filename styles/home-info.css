@@ -10,7 +10,11 @@ h1 {
 }
 
 fieldset {
-  margin: 2.5vh auto;
+  margin: 3.5vh auto;
+}
+
+label {
+  font-size: 1.1rem;
 }
 
 a {
