@@ -85,20 +85,23 @@
 
           <fieldset>
             <legend>People in the home</legend>
-            <label for="family-names">
+            <label for="family">
               Please list every person and their age that lives in your home
-              <textarea name="family-names" rows="3" cols="60"></textarea>
+              <textarea name="family" rows="3" cols="60"></textarea>
             </label>
-            <label for="family-ages">In the same order as above, provide the ages of each person</label>
-            <textarea name="family-ages" rows="3" cols="60"></textarea>
-            <label for="caregiver">Which person will be the primary caregiver for the rabbit?</label>
-            <input type="text" name="caregiver" />
+            <label for="caregiver">
+              Which person will be the primary caregiver for the rabbit?
+              <br />
+              <input type="text" name="caregiver" id="caregiver" />
+            </label>
           </fieldset>
 
           <fieldset>
-            <legend>Other pets in the home</legend>
-            <label>List all other animals that live in the house</label>
-            <textarea name="name" rows="3" cols="60"></textarea>
+            <legend>Pets in the home</legend>
+            <label for="pets">
+              Please list all pets that would live in the house with your rabbit
+              <textarea name="pets" rows="3" cols="60"></textarea>
+            </label>
           </fieldset>
 
           <a href="./rabbit-xp.html">Submit and Continue</a>
