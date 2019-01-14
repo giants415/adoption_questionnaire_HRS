@@ -10,10 +10,14 @@ p {
   font-size: 1.25rem;
 }
 
+a {
+  border: .5px solid #f4f4f4;
+}
+
 .col-lg-10 {
   margin: 5vh auto;
 }
 
 .col {
-  /* margin: 2.5vh 0; */
+  margin: 2.5vh auto;
 }
