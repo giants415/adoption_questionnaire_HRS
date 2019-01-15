@@ -5,9 +5,9 @@ body {
 }
 
 img {
-  width: 30%;
-  margin: 5vh auto;
-  border-radius: 50px;
+  /* width: 50%; */
+  /* margin: 5vh auto;
+  border-radius: 50px; */
 }
 
 p {
@@ -35,4 +35,13 @@ a:hover {
 
 .col {
   margin: 5vh auto;
+}
+
+#anne {
+  /* margin: 0 auto; */
+  /* width: 90%; */
+  /* height: 150px; */
+  margin: auto;
+  width: 100vw;
+  /* z-index: 4; */
 }
