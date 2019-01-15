@@ -22,45 +22,65 @@
           <form>
             <fieldset>
               <legend>Have you owned a rabbit before?</legend>
-              <input type="radio" name="first">
-              <label for="first">First Time</label>
-              <input type="radio" name="previously">
-              <label for="previously">Previously owned rabbit(s)</label>
-              <input type="radio" name="currently">
-              <label for="currently">Currently own rabbit(s)</label>
-              <label for="prev">If you previously owned rabbits, let us know how long you owned them and what happened with them.</label>
-              <textarea name="prev" rows="8" cols="80"></textarea>
-              <br />
+              <label for="first">
+                <input type="radio" name="ownership" id="first">
+                First Time
+              </label>
+              <label for="previously">
+                <input type="radio" name="ownership" id="previously">
+                Previously owned rabbit(s)
+              </label>
+              <label for="currently">
+                <input type="radio" name="ownership" id="currently">
+                Currently own rabbit(s)
+              </label>
+              <label for="prev">
+                If you previously owned rabbits, let us know how long you owned them and what happened with them.
+                <textarea name="prev" rows="4" cols="80"></textarea>
+              </label>
               <label for="bond">Do you plan to bond your rabbits?</label>
-              <input type="radio" name="yes">
-              <label for="yes">Yes</label>
-              <input type="radio" name="no">
-              <label for="no">No</label>
-              <br />
-              <label for="keep">Would you keep your new rabbit if you're unable to bond them?</label>
-              <input type="text" name="keep">
-              <br />
-              <label for="fixed">Are your rabbits spayed/neutered?</label>
-              <input type="text" name="fixed">
+              <label for="yes">
+                <input type="radio" name="bond" id="yes">
+                Yes
+              </label>
+              <label for="no">
+                <input type="radio" name="bond" id="no">
+                No
+              </label>
+              <label for="keep">
+                Would you keep your new rabbit if you're unable to bond them?
+                <input type="text" name="keep">
+              </label>
+              <label for="fixed">
+                Are your current rabbit(s) spayed/neutered?
+                <input type="text" name="fixed">
+              </label>
             </fieldset>
 
             <fieldset>
               <legend>Will your rabbit live...</legend>
-              <input type="radio" name="inside">
-              <label for="inside">Inside your home</label>
-              <input type="radio" name="outside">
-              <label for="outside">Outside your home</label>
-              <input type="radio" name="both">
-              <label for="both">Inside and outside</label>
+              <label for="inside">
+                <input type="radio" name="living-space" id="inside">
+                Inside your home
+              </label>
+              <label for="outside">
+                <input type="radio" name="living-space" id="outside">
+                Outside your home
+              </label>
+              <label for="both">
+                <input type="radio" name="living-space" id="both">
+                Inside and outside
+              </label>
             </fieldset>
 
             <fieldset>
-              <legend>Where will your rabbit's primary enclosure be?</legend>
-              <input type="text" name="enclosure" placeholder="living room, bedroom, garage, etc.">
-            </fieldset>
-
-            <fieldset>
-              <legend>What type of enclosue will the rabbit have?</legend>
+              <legend>Rabbit Living Space</legend>
+              <label for="enclosure">
+                Where will your rabbit's primary enclosure be placed?
+                <br />
+                <input type="text" id="enclosure" placeholder="living room, bedroom, garage, etc.">
+              </label>
+              <label>What type of enclosue will the rabbit have?</label>
               <input type="radio" name="cage">
               <label for="cage">In a cage</label>
               <input type="radio" name="room">
