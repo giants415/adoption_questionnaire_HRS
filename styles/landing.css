@@ -33,8 +33,19 @@ a:hover {
   transition: .4s ease-in;
 }
 
+.col-lg-4 {
+  height: 200px;
+  padding: 10px;
+  margin: 5vh auto;
+}
+
+.col-lg-4:nth-of-type(odd) {
+  border-left: 1.25px solid black;
+  border-right: 1.25px solid black;
+}
+
 .col-lg-4 h3 {
-  margin: auto;
+  margin: 1.5vh auto;
   background-color: rgba(252,74,26, .9);
   font-size: 2.2rem;
   width: 60px;
