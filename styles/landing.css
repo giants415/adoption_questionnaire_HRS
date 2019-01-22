@@ -33,12 +33,14 @@ a:hover {
   transition: .4s ease-in;
 }
 
-.col-lg-10 {
-  margin: 5vh auto;
-}
-
-.col-lg-10 p {
-  margin: 4vh auto;
+.col-lg-4 h3 {
+  margin: auto;
+  background-color: rgba(252,74,26, .9);
+  font-size: 2.2rem;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
 }
 
 .col {
