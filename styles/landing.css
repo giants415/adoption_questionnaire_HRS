@@ -40,8 +40,8 @@ a:hover {
 }
 
 .col-lg-4:nth-of-type(odd) {
-  border-left: 1.25px solid black;
-  border-right: 1.25px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .col-lg-4 h3 {
