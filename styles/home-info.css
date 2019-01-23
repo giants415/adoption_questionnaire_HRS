@@ -2,7 +2,7 @@
 
 body {
   /* text-align: center; */
-  background-color: #6500b8;
+  background-color: #4ABDAC;
   color: white;
   margin: 5vh auto;
 }
@@ -12,11 +12,20 @@ h1 {
 }
 
 fieldset {
-  margin: 3.5vh auto;
+  /* margin: 3.5vh auto; */
+  padding: 5vh 5vw;
+  border-radius: 10px;
+  background-color: rgba(252,74,26, .9);
 }
 
 h1, legend {
   font-family: 'Rubik', sans-serif;
+}
+
+legend {
+  /* margin-bottom: 0; */
+  position: relative;
+  top: 4.25vh;
 }
 
 label {
@@ -43,8 +52,4 @@ a:hover {
   text-decoration: none;
   color: black;
   border: 4px solid gold;
-}
-
-#personal {
-  /* display: flex; */
 }
