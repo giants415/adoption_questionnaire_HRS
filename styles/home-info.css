@@ -15,6 +15,12 @@ fieldset {
 
 label {
   font-size: 1.1rem;
+  display: block;
+}
+
+input[type = 'text'] {
+  display: block;
+  width: 250px;
 }
 
 a {
