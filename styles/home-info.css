@@ -38,6 +38,11 @@ input[type = 'text'] {
   width: 250px;
 }
 
+input[type = 'radio'] {
+  vertical-align: middle;
+  margin-bottom: 7px;
+}
+
 a {
   margin-top: 2vh;
   display: inline-block;
