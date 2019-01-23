@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Rubik:700');
 
 body {
-  /* text-align: center; */
   background-color: rgba(74,189,172,.5);
   color: white;
   margin: 5vh auto;
@@ -40,6 +39,8 @@ input[type = 'text'] {
 }
 
 a {
+  margin-top: 2vh;
+  display: inline-block;
   color: black;
   border-radius: 5px;
   background-color: #f4f4f4;
@@ -52,4 +53,8 @@ a:hover {
   color: white;
   background-color: #f7b733;
   transition: .4s ease-in;
+}
+
+.col:last-child {
+  text-align: center;
 }
