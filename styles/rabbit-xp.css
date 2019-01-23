@@ -58,3 +58,7 @@ a:hover {
   background-color: #f7b733;
   transition: .4s ease-in;
 }
+
+.col:last-child {
+  text-align: center;
+}
