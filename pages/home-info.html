@@ -15,97 +15,100 @@
   </head>
   <body>
     <div class="container">
-      <div class="col-lg-10 offset-lg-1">
-        <h1>Home Info</h1>
-        <form>
-          <fieldset id="personal">
-            <legend>Personal Info</legend>
-            <label for="name">
-              Name
-              <input type="text" name="name"/>
-            </label>
-            <label for="phone">
-              Phone
-              <input type="text" name="phone" placeholder="(###) ###-####"/>
-            </label>
-            <label for="email">
-              Email
-              <input type="text" name="email"/>
-            </label>
-            <label for="address">
-              Address
-              <input type="text" name="address"/>
-            </label>
-            <label for="city">
-              City
-              <input type="text" name="city"/>
-            </label>
-            <label for="zip">
-              Zip
-              <input type="text" name="zip"/>
-            </label>
-          </fieldset>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <h1>Home Info</h1>
+          <form>
+            <fieldset>
+              <legend>Personal Info</legend>
+              <label for="name">
+                Name
+                <input type="text" id="name"/>
+              </label>
+              <label for="phone">
+                Phone
+                <input type="text" id="phone" placeholder="(###) ###-####"/>
+              </label>
+              <label for="email">
+                Email
+                <input type="text" id="email"/>
+              </label>
+              <label for="address">
+                Address
+                <input type="text" id="address"/>
+              </label>
+              <label for="city">
+                City
+                <input type="text" id="city"/>
+              </label>
+              <label for="zip">
+                Zip
+                <input type="text" id="zip"/>
+              </label>
+            </fieldset>
 
-          <fieldset>
-            <legend>Housing Situation</legend>
-            <label for="homeowner">
-              <input type="radio" name="homeowner" />
-              Homeowner
-            </label>
-            <label for="parents">
-              <input type="radio" name="parents" />
-              Live with parents
-            </label>
-            <label for="approval">
-              <input type="radio" name="approval" />
-              Landlord has approved rabbits
-            </label>
-            <label for="disapproval">
-              <input type="radio" name="disapproval" />
-              Landlord has NOT approved rabbits
-            </label>
-          </fieldset>
+            <fieldset>
+              <legend>Housing Situation</legend>
+              <label for="homeowner">
+                <input type="radio" id="homeowner" />
+                Homeowner
+              </label>
+              <label for="parents">
+                <input type="radio" id="parents" />
+                Live with parents
+              </label>
+              <label for="approval">
+                <input type="radio" id="approval" />
+                Landlord has approved rabbits
+              </label>
+              <label for="disapproval">
+                <input type="radio" id="disapproval" />
+                Landlord has NOT approved rabbits
+              </label>
+            </fieldset>
 
-          <fieldset>
-            <legend>If you were to move, locally or out of state/country, would you plan to bring your pets with you?</legend>
-            <label for="yes">
-              <input type="radio" name="yes" />
-              Yes
-            </label>
-            <label for="no">
-              <input type="radio" name="no" />
-              No
-            </label>
-          </fieldset>
+            <fieldset>
+              <legend>If you were to move would you bring your pets with you?</legend>
+              <label for="yes">
+                <input type="radio" id="yes" />
+                Yes
+              </label>
+              <label for="no">
+                <input type="radio" id="no" />
+                No
+              </label>
+            </fieldset>
 
-          <fieldset>
-            <legend>How will you make your home safe for a rabbit?</legend>
-            <textarea name="safety" rows="3" cols="60"></textarea>
-          </fieldset>
+            <fieldset>
+              <legend>How will you make your home safe for a rabbit?</legend>
+              <textarea name="safety" rows="3" cols="60"></textarea>
+            </fieldset>
 
-          <fieldset>
-            <legend>People in the home</legend>
-            <label for="family">
-              Please list every person and their age that lives in your home
-              <textarea name="family" rows="3" cols="60"></textarea>
-            </label>
-            <label for="caregiver">
-              Which person will be the primary caregiver for the rabbit?
-              <br />
-              <input type="text" name="caregiver" id="caregiver" />
-            </label>
-          </fieldset>
+            <fieldset>
+              <legend>People in the home</legend>
+              <label for="family">
+                Please list every person and their age that lives in your home
+                <textarea id="family" rows="3" cols="60"></textarea>
+              </label>
+              <label for="caregiver">
+                Which person will be the primary caregiver for the rabbit?
+                <br />
+                <input type="text" name="caregiver" id="caregiver" />
+              </label>
+            </fieldset>
 
-          <fieldset>
-            <legend>Pets in the home</legend>
-            <label for="pets">
-              Please list all pets that would live in the house with your rabbit
-              <textarea name="pets" rows="3" cols="60"></textarea>
-            </label>
-          </fieldset>
-
+            <fieldset>
+              <legend>Pets in the home</legend>
+              <label for="pets">
+                Please list all pets that would live in the house with your rabbit
+                <textarea id="pets" rows="3" cols="60"></textarea>
+              </label>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col">
           <a href="./rabbit-xp.html">Submit and Continue</a>
-        </form>
+        </div>
       </div>
     </div>
   </body>
