@@ -71,6 +71,7 @@ a:hover {
   legend {
     text-align: center;
     font-size: 1.4rem;
+    top: 5vh;
   }
   label {
     font-size: 1.2rem;
