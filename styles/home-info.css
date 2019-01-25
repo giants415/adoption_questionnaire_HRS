@@ -65,13 +65,20 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px)  {
+  h1 {
+    font-size: 2.2rem;
+  }
   legend {
     text-align: center;
+    font-size: 1.4rem;
   }
-  legend, label {
+  label {
     font-size: 1.2rem;
   }
   textarea {
     max-width: 450px;
+  }
+  input[type = 'radio'] {
+    margin-bottom: 4px;
   }
 }
