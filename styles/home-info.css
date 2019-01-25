@@ -63,3 +63,15 @@ a:hover {
 .col:last-child {
   text-align: center;
 }
+
+@media only screen and (max-width: 600px)  {
+  legend {
+    text-align: center;
+  }
+  legend, label {
+    font-size: 1.2rem;
+  }
+  textarea {
+    max-width: 450px;
+  }
+}
