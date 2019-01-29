@@ -77,7 +77,7 @@ a:hover {
     font-size: 1.2rem;
   }
   textarea {
-    max-width: 450px;
+    max-width: 95%;
   }
   input[type = 'radio'] {
     margin-bottom: 4px;
