@@ -43,6 +43,14 @@ input[type = 'radio'] {
   margin-bottom: 7px;
 }
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 1vh;
+}
+
 a {
   margin-top: 2vh;
   display: inline-block;
@@ -81,5 +89,8 @@ a:hover {
   }
   input[type = 'radio'] {
     margin-bottom: 4px;
+  }
+  ul {
+    padding-left: 5vw;
   }
 }
