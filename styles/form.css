@@ -72,6 +72,12 @@ a:hover {
   text-align: center;
 }
 
+#thanks {
+  padding: 5vh 5vw;
+  border-radius: 10px;
+  background-color: #4ABDAC;
+}
+
 @media only screen and (max-width: 600px)  {
   h1 {
     font-size: 2rem;
